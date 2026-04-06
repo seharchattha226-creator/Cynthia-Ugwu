@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="minicircle"></div>
+
+    <div id="main" data-scroll-container>
+
+        <div id="nav">
+            <a class="nav-brand" href="index.html">Cynthia Ugwu</a>
+            <div id="nav-links">
+                <a href="work.html">WORK</a>
+                <a href="playground.html">PLAYGROUND</a>
+                <a href="contact.html">CONTACT</a>
+                <h4 id="close-btn">CLOSE</h4>
+            </div>
+            <h4 id="menu-btn">MENU+</h4>
+        </div>
+
+        <div id="contact-page">
+
+            <div id="contact-inner">
+
+                <!-- LEFT SIDE -->
+                <div id="contact-left">
+                    <p id="contact-label">CONTACT US</p>
+                    <h2>Get in Touch<br>with Us</h2>
+                    <p id="contact-desc">We're here to help. Whether you're interested in learning more about our services or need support, we're happy to assist you.</p>
+
+                    <ul id="contact-features">
+                        <li>✓ Reliable Delivery</li>
+                        <li>✓ Comprehensive Token & Digest</li>
+                        <li>✓ Customizable Notifications</li>
+                        <li>✓ Real-Time Updates</li>
+                        <li>✓ Seamless Integration</li>
+                    </ul>
+
+                    <div id="contact-details">
+                        <p><span>Phone:</span> +1 415-555-0199</p>
+                        <p><span>Email:</span> contact@company.com</p>
+                        <p><span>Location:</span> San Francisco, CA</p>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE — FORM -->
+                <div id="contact-right">
+                    <div class="input-row">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <input type="email" placeholder="Email Address">
+                    <input type="text" placeholder="Company Name">
+                    <select>
+                        <option value="" disabled selected>Select one</option>
+                        <option>General Inquiry</option>
+                        <option>Project Collaboration</option>
+                        <option>Support</option>
+                    </select>
+                    <textarea placeholder="Write your message.."></textarea>
+                    <div id="contact-agree">
+                        <input type="checkbox" id="agree">
+                        <label for="agree">I agree to the terms and privacy policy</label>
+                    </div>
+                    <button id="submit-btn">Submit</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
