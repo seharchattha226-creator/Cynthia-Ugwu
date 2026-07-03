@@ -434,7 +434,8 @@ html, body {
     -webkit-backdrop-filter: blur(10px);
 }
 
-/* VIDEO — poori card fill kare */
+/* IMAGE/VIDEO — poori card fill kare */
+.pg-card img,
 .pg-card video {
     width: 100%;
     height: 100%;
