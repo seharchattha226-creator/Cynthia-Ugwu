@@ -444,6 +444,28 @@ html, body {
     pointer-events: none;
     border-radius: 16px;
 }
+
+/* Card content overlay */
+.pg-card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    padding: 30px 25px 25px;
+    color: #fff;
+}
+
+.pg-card-content h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.pg-card-content p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
 /* ========================= */
 /* CONTACT PAGE */
 /* ========================= */
